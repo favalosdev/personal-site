@@ -1,0 +1,36 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "rules": {
+    "react/prop-types": "off", // Disable prop-types rule (if using TypeScript)
+    "react/react-in-jsx-scope": "off", // No need to import React in scope with React 17+
+    "prettier/prettier": "error", // Make Prettier errors show as ESLint errors
+    "no-console": "warn", // Warn on console.log statements
+    "no-unused-vars": "warn" // Warn on unused variables
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Automatically detect the React version
+    }
+  }
+}
