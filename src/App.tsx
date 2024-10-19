@@ -1,16 +1,17 @@
-import React, { useState } from 'react';
-import './App.css';
+import React, { useState } from 'react'
+import './App.css'
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>('about')
 
   return (
     <div className="App">
-      <header>  <h1>Fernando Avalos</h1>
-
+      <header>
+        {' '}
+        <h1>Fernando Avalos</h1>
         <p>
-          23-year-old Product Engineer at a Startup & Community Builder. Figuring things out, one
-          product at a time.
+          23-year-old Product Engineer at a Startup & Community Builder.
+          Figuring things out, one product at a time.
         </p>
       </header>
 
@@ -118,7 +119,7 @@ const App: React.FC = () => {
         <p>&copy; 2024 Fernando Avalos. Learning in public.</p>
       </footer>
     </div>
-  ); 
+  )
 }
 
-export default App;
+export default App
