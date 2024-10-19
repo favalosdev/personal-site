@@ -10,8 +10,8 @@ const App: React.FC = () => {
         {' '}
         <h1>Fernando Avalos</h1>
         <p>
-          23-year-old Product Engineer at a Startup & Community Builder.
-          Figuring things out, one product at a time.
+          23-year-old Product Engineer at a Startup & Community Builder. I make
+          stuff happen.
         </p>
       </header>
 
