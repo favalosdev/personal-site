@@ -1,7 +1,7 @@
 body {
-  background-color: #000000; /* Pure black background */
-  color: #f44336; /* Villainous red text */
-  font-family: 'Arial', sans-serif;
+  background-color: #000000;
+  color: #ffffff; /* White text for contrast */
+  font-family: 'Courier New', monospace; /* Monospace font for that classic hacker look */
   margin: 0;
   padding: 0;
 }
@@ -10,8 +10,9 @@ body {
 header {
   text-align: center;
   padding: 50px;
-  background-color: #111111; /* Slightly lighter black */
-  color: #f44336; /* Villainous red for the header text */
+  background-color: #111111;
+  color: #ff0000; /* Devilish red for the header text */
+  text-shadow: 0 0 10px #ff0000; /* Glow effect */
 }
 
 /* Navigation styling */
@@ -19,131 +20,117 @@ nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  background-color: #222222; /* Dark grayish black for nav */
+  background-color: #222222;
   padding: 10px;
-}
-
-nav ul li {
-  margin: 0 15px;
 }
 
 nav ul li button {
   background: none;
-  color: #f44336; /* Red for the buttons */
-  border: 1px solid #f44336;
+  color: #ff0000; /* Devilish red for the buttons */
+  border: 1px solid #ff0000;
   padding: 10px;
   cursor: pointer;
   font-size: 1rem;
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 nav ul li button:hover {
-  background-color: #f44336; /* Red background on hover */
-  color: #000000; /* Black text on hover */
+  background-color: #ff0000;
+  color: #000000;
+  box-shadow: 0 0 15px #ff0000; /* Glow effect on hover */
 }
 
 /* Section styling */
 section {
   padding: 20px;
   margin: 20px;
-  background-color: #1a1a1a; /* Darker black for section backgrounds */
-  border: 2px solid #f44336; /* Red border */
+  background-color: #1a1a1a;
+  border: 2px solid #ff0000; /* Devilish red border */
+  box-shadow: 0 0 10px #ff0000; /* Glow effect */
 }
 
 h2 {
-  color: #f44336; /* Red headings */
+  color: #ff0000; /* Devilish red headings */
+  text-shadow: 0 0 5px #ff0000; /* Glow effect */
 }
 
 /* Footer styling */
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #111111; /* Slightly lighter black */
-  color: #777777; /* Gray for footer text */
+  background-color: #111111;
+  color: #ffffff; /* White for footer text */
 }
 
 /* Links styling */
 a {
-  color: #f44336; /* Red links */
+  color: #ff0000; /* Devilish red links */
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #ffffff; /* White on hover */
+  text-shadow: 0 0 5px #ffffff; /* Glow effect on hover */
 }
 
-/* Button styling (for any general buttons you use) */
-button {
-  background-color: #f44336;
-  color: #000000;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #d32f2f; /* Slightly darker red */
-}
-
-#random {
-  padding: 20px;
-  color: #ff4d4d; /* Red text color for an edgy feel */
-  background-color: #000000; /* Black background to make it dark */
-}
-
-.quotes {
-  margin-top: 20px;
-}
-
-blockquote {
-  font-family: 'Georgia', serif;
-  font-size: 1.5rem;
-  font-style: italic;
-  color: #ff4d4d; /* Keep the villainous red color */
-  border-left: 5px solid #ff4d4d; /* Adds a red vertical line for emphasis */
-  padding-left: 15px;
-  margin-bottom: 20px;
-}
-
-blockquote::before {
-  content: '“'; /* Open quote */
-  font-size: 2rem;
-  vertical-align: top;
-  color: #ff4d4d;
-}
-
-blockquote::after {
-  content: '”'; /* Close quote */
-  font-size: 2rem;
-  vertical-align: bottom;
-  color: #ff4d4d;
-}
-
+/* Social icons styling */
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
+  gap: 20px; /* This adds space between the icons */
 }
 
 .social-icons a {
-  color: #ffffff;
+  color: #ff0000;
   font-size: 24px;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #3182ce;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff; /* Glow effect on hover */
 }
 
-/*
-footer {
-  font-size: 1rem;
-  font-style: normal;
-  text-align: right;
-  color: #888888;
-  margin-top: 10px;
+/* Add a glitch effect to the main heading */
+@keyframes glitch {
+  0% {
+    text-shadow:
+      0.05em 0 0 #ffffff,
+      -0.05em -0.025em 0 #ff0000;
+  }
+  14% {
+    text-shadow:
+      0.05em 0 0 #ffffff,
+      -0.05em -0.025em 0 #ff0000;
+  }
+  15% {
+    text-shadow:
+      -0.05em -0.025em 0 #ffffff,
+      0.025em 0.025em 0 #ff0000;
+  }
+  49% {
+    text-shadow:
+      -0.05em -0.025em 0 #ffffff,
+      0.025em 0.025em 0 #ff0000;
+  }
+  50% {
+    text-shadow:
+      0.025em 0.05em 0 #ffffff,
+      0.05em 0 0 #ff0000;
+  }
+  99% {
+    text-shadow:
+      0.025em 0.05em 0 #ffffff,
+      0.05em 0 0 #ff0000;
+  }
+  100% {
+    text-shadow:
+      -0.025em 0 0 #ffffff,
+      -0.025em -0.025em 0 #ff0000;
+  }
 }
-*/
+
+h1 {
+  animation: glitch 500ms infinite;
+}
