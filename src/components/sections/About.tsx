@@ -14,8 +14,21 @@ export const AboutSection: React.FC = () => {
           and so much more.
         </li>
         <li>
-          I work as Product Engineer at a startup named Samsam and co-lead AI
-          Safety Colombia.
+          I work as Product Engineer at a startup named{' '}
+          <a
+            href="https://samsam.co"
+            style={{ color: '#007bff', textDecoration: 'underline' }}
+          >
+            Samsam
+          </a>{' '}
+          and co-lead{' '}
+          <a
+            href="https://aiscol.org"
+            style={{ color: '#007bff', textDecoration: 'underline' }}
+          >
+            AI Safety Colombia
+          </a>
+          .
         </li>
         <li>
           This page is a work in progress. I&apos;m still figuring out what I
