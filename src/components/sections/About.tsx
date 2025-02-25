@@ -15,20 +15,8 @@ export const AboutSection: React.FC = () => {
         </li>
         <li>
           I work as Product Engineer at a startup named{' '}
-          <a
-            href="https://samsam.co"
-            style={{ color: '#007bff', textDecoration: 'underline' }}
-          >
-            Samsam
-          </a>{' '}
-          and co-lead{' '}
-          <a
-            href="https://aiscol.org"
-            style={{ color: '#007bff', textDecoration: 'underline' }}
-          >
-            AI Safety Colombia
-          </a>
-          .
+          <a href="https://samsam.co">Samsam</a> and co-lead{' '}
+          <a href="https://aiscol.org">AI Safety Colombia</a>.
         </li>
         <li>
           This page is a work in progress. I&apos;m still figuring out what I
@@ -37,21 +25,11 @@ export const AboutSection: React.FC = () => {
         </li>
       </ul>
       <p>
-        Provisionally, you can see my work at{' '}
-        <a
-          href="https://github.com/favalosdev"
-          style={{ color: '#007bff', textDecoration: 'underline' }}
-        >
-          GitHub
-        </a>{' '}
-        and contact me via{' '}
-        <a
-          href="mailto:fernandoadev@protonmail.com"
-          style={{ color: '#007bff', textDecoration: 'underline' }}
-        >
-          email
-        </a>
-        .
+        Provisionally, you can inspect my{' '}
+        <a href="https://github.com/favalosdev">work</a> and contact me via{' '}
+        <a href="mailto:fernandoadev@protonmail.com">email</a>. If you want to
+        have a chat, you can schedule a meeting with me{' '}
+        <a href="https://calendly.com/favalosl/tertulia">here.</a>
       </p>
     </section>
   )

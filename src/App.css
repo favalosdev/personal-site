@@ -25,6 +25,11 @@
   }
 }
 
+a {
+  color: #00ffff;
+  text-decoration: underline;
+}
+
 body {
   background-color: #120b29; /* Deeper space purple */
   background-image: radial-gradient(
