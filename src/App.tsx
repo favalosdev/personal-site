@@ -8,7 +8,7 @@ import {
   EssaysSection,
   FeedbackSection,
 } from './components/sections'
-import profileImage from './assets/images/profile.jpeg'
+import profileImage from './assets/images/stick-man.png'
 
 import './App.css'
 
