@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { AboutSection, FeedbackSection } from './components/sections'
 import profileImage from './assets/images/stick-man.png'
+import { faEnvelope, faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
 
 import './App.css'
 
@@ -41,6 +41,13 @@ const App: React.FC = () => {
             aria-label="Email"
           >
             <FontAwesomeIcon icon={faEnvelope} />
+          </a>
+          <a
+            href="https://calendly.com/favalosl/tertulia"
+            className="hover:text-fuchsia-400"
+            aria-label="Schedule"
+          >
+            <FontAwesomeIcon icon={faCalendarAlt} />
           </a>
         </div>
       </div>
