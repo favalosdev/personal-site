@@ -10,8 +10,7 @@ export const AboutSection: React.FC = () => {
         </li>
         <li>
           I&apos;m currently exploring Meta-learning, Systems-thinking, Eastern
-          Philosophy, Consciousness, Emergence, Buddhism, AI Safety, Ayurveda
-          and so much more.
+          Philosophy, Consciousness, Buddhism and so much more.
         </li>
         <li>
           I work as Product Engineer at a startup named{' '}
